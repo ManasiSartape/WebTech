@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login-container{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            height: 100vh;   /*viewport height  which is the viewable screen's height */
+            width: 100%;
+            display: flex;
+            background-image: url(https://i2.wp.com/files.123freevectors.com/wp-content/original/174151-blue-blur-background.jpg?w=420);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .login-form{
+            height: 100vh;
+            width: 50%;
+            border: 5px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image{
+            height: 100vh;
+            width: 50%;
+            border: 5px solid black;
+           
+        }
+
+        #log{
+            width: 200px;
+            height: 30px;
+            background-color:blueviolet;   
+        }
+        #log:hover{
+            background-color:bisque;
+        }
+
+        .form{
+            height: 500px;
+            width: 400px;
+            background-color:whitesmoke;
+            text-align: center;
+        }
+
+        .place{
+            height: 30px;
+            width: 200px;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <div class="form">
+                <h1 align="center">LOGIN</h1>
+                <br>
+                <input class="place" type="text" placeholder="Username">
+                <br><br><br>
+                <input class="place" type="text" placeholder="password">
+                <br><br>
+                <a href="#">FORGOT PASSWORD ?</a>
+                <br><br>
+                <button id="log">LOGIN</button>
+            </div>
+        </div>
+        <div class="image">
+            <img src="https://www.auslogics.com/en/articles/wp-content/uploads/2023/09/shutterstock_1641434344-1.jpg" alt="" height="800px" width="800px">
+        </div>
+    </div>
+</body>
+</html>
